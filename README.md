@@ -1,2 +1,5 @@
-# vim-config
-My Vim setup
+ 
+## 🇬🇧
+- My Vim editor configuration.
+## 🇧🇷
+- Minha configuração do editor Vim.

@@ -17,6 +17,8 @@ set ruler
 set undolevels=1000	
 set backspace=indent,eol,start
 set laststatus=2
+set foldmethod=indent
+set foldcolumn=1
 
 " Auto-close brackets, quotes, etc
 inoremap " ""<left>
@@ -69,3 +71,4 @@ inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
 " coc-clangd
 " coc-snippets
 " @yaegassy/coc-pylsp
+" coc-java

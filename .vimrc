@@ -19,6 +19,7 @@ set backspace=indent,eol,start
 set laststatus=2
 set foldmethod=indent
 set foldcolumn=1
+set clipboard=unnamedplus
 
 " Auto-close brackets, quotes, etc
 inoremap " ""<left>

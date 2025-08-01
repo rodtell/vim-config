@@ -20,6 +20,7 @@ set laststatus=2
 set noshowmode
 set foldmethod=indent
 set foldcolumn=1
+set termguicolors
 
 " Auto-close brackets, quotes, etc
 inoremap " ""<left>
@@ -33,7 +34,7 @@ inoremap {;<CR> {<CR>};<ESC>O
 " Plugins managed by vim-plug
 call plug#begin()
 Plug 'itchyny/lightline.vim'
-Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
+Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 Plug 'mattn/emmet-vim'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
@@ -45,8 +46,8 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
 " Theme configuration
-colorscheme catppuccin-latte
-let g:lightline = {'colorscheme': 'catppuccin'}
+colorscheme catppuccin_latte
+let g:lightline = {'colorscheme': 'catppuccin_latte'}
 
 " Emmet setup for HTML and CSS only
 let g:user_emmet_install_global = 0
